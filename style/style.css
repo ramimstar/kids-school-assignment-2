@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.quicksand-kids {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.raleway {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+/* header style */
+.header {
+    max-width: 1160px;
+    margin: 0px auto;
+}
+
+
+/* nav style */
+.nav {
+    padding: 20px 0px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 62px;
+    height: 62px;
+}
+
+.nav-logo h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    margin-left: 11px;
+}
+
+/* nav menu style*/
+
+.nav-menu {
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    /* margin: 0px 186px; */
+}
+
+.nav-btn {
+    padding: 10px 60px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: rgb(201, 132, 4);
+    border: none;
+    border-radius: 12px;
+    color: white;
+}
+
+/* banner style */
+
+.banner {
+    justify-content: space-between;
+    align-items: center;
+    justify-items: space-between;
+    gap: 50px;
+    grid
+}
+
+.banner-content {
+    width: 640px;
+}
+
+.banner-head {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.banner-btn {
+    padding: 10px 47px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    margin-top: 24px;
+}
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction:column;
+        flex-direction: column-reverse;
+        margin: 0px auto;
+    }
+    .banner-img img{
+        /* width: 100%; */
+    }
+    .banner-content{
+        text-align: center;
+        width: 450px;
+    }
+    .banner-head{
+        font-size:2.7 rem;
+    }
+    .banner-content p{
+        font-size: 1.2rem;
+    }
+    .banner-btn{
+        font-size: 1.2rem;
+    }
+} 
+
+
+/* curriculum style */
+.curriculum{
+    background-image: url(../assets/bg.png);
+}
+.curriculum-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px
+}
+.curriculum{
+    margin: 0px auto;
+    max-width: 1160px;
+    justify-content: space-between;
+}
+.curriculum-item{
+    flex-direction:column;
+    max-width:360px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.curriculum-item img{
+    margin-top: 50px;
+}
+.curriculum-item p{
+    color: #808080;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 33px 0px;
+}
