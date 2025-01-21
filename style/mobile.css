@@ -1,6 +1,10 @@
 
 
 @media screen and (max-width:576px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
       /* style banner */
     .banner{
         flex-direction:column;
@@ -15,7 +19,7 @@
         font-size:2.7rem;
     }
     .banner-content p{
-        font-size: .9rem;
+        font-size: 1.1rem;
     }
     .banner-btn{
         font-size: 1.2rem;
