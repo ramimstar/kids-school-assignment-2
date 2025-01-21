@@ -14,6 +14,10 @@
     font-weight: <weight>;
     font-style: normal;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 
 /* header style */
@@ -33,6 +37,7 @@
 
 .nav-logo {
     align-items: center;
+    max-width: 200px;
 }
 
 .nav-logo img {
@@ -79,7 +84,7 @@
 }
 
 .banner-content {
-    width: 640px;
+    width: 580px;
 }
 
 .banner-head {
@@ -98,33 +103,11 @@
     color: white;
     margin-top: 24px;
 }
-@media screen and (max-width:576px) {
-    .banner{
-        flex-direction:column;
-        flex-direction: column-reverse;
-        margin: 0px auto;
-    }
-    .banner-img img{
-        /* width: 100%; */
-    }
-    .banner-content{
-        text-align: center;
-        width: 450px;
-    }
-    .banner-head{
-        font-size:2.7 rem;
-    }
-    .banner-content p{
-        font-size: 1.2rem;
-    }
-    .banner-btn{
-        font-size: 1.2rem;
-    }
-} 
+
 
 
 /* curriculum style */
-.curriculum{
+.curriculums{
     background-image: url(../assets/bg.png);
 }
 .curriculum-title{
@@ -134,11 +117,13 @@
     text-align: center;
     margin-top: 60px;
     margin-bottom: 80px
+    
 }
 .curriculum{
     margin: 0px auto;
     max-width: 1160px;
     justify-content: space-between;
+
 }
 .curriculum-item{
     flex-direction:column;
@@ -147,6 +132,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .curriculum-item img{
     margin-top: 50px;
@@ -156,12 +142,13 @@
     font-size: 1rem;
     font-weight: 500;
     margin: 33px 0px;
+    padding: 0px 15px;
 }
 .gradient-one{
-    background:linear-gradient(180deg, rgb(198, 253, 172)-15%, rgba(255, 255, 255, 0)100%);
+    background:linear-gradient(180deg, rgb(252, 184, 184)-15%, rgba(255, 255, 255, 0)100%);
 }
 .gradient-two{
-    background:linear-gradient(180deg, rgb(252, 184, 184)-15%, rgba(255, 255, 255, 0)100%);
+    background:linear-gradient(180deg, rgb(198, 253, 172)-15%, rgba(255, 255, 255, 0)100%);
 }
 .gradient-three{
     background:linear-gradient(180deg, rgb(188, 195, 250)-55%, rgba(255, 255, 255, 0)100%);
@@ -194,10 +181,58 @@
 }
 .arrwo{
     font-size:1.65rem;
-    font-weight: 600;
+    font-weight: 500;
     color: white;
     background-color:orange;
     border: none;
     border-radius: 50%;
     padding: 14px 22px;
+}
+
+
+
+
+
+
+
+
+/* footer style */
+.footer{
+    background-color:#4cc2f8; ;
+}
+.footer-content{
+    max-width:1100px;
+    margin: 0px auto;
+    justify-content: space-between;
+    padding: 120px 0px;
+
+}
+.kids{
+    max-width: 400px;
+}
+.kids h3{
+    font-size:2.5rem;
+    line-height: .9;
+    color: white;
+}
+.kids p{
+    margin-top: 35px;
+    font-size: 1.25rem;
+}
+.footer-list ul li{
+    list-style: none;
+    font-size:1.25rem;
+    font-weight: 500;
+}
+.school{
+    font-size:1.5rem;
+    font-weight: 700;
+}
+.footer-list li{
+    margin-bottom:25px ;
+}
+.footer-social h3{
+    font-size:1.3rem;
+    font-weight: 700;
+    margin-bottom: 25px;
 }
