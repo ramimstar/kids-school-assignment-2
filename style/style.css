@@ -137,6 +137,11 @@
 .curriculum-item img{
     margin-top: 50px;
 }
+.curriculum-item h3{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
 .curriculum-item p{
     color: #808080;
     font-size: 1rem;
@@ -224,7 +229,7 @@
     font-size:1.25rem;
     font-weight: 500;
 }
-.school{
+#school{
     font-size:1.5rem;
     font-weight: 700;
 }

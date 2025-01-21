@@ -31,6 +31,13 @@
         margin: 0px auto;
         margin-bottom: 12px;
     }
+    .curriculum-item h3{
+        margin-top: 25px;
+    }
+    .curriculum-item p{
+        padding: 0 50px;
+        font-size: 1rem;
+    }
     .curriculum-title{
         font-size: 2rem;
         font-weight: 700;
