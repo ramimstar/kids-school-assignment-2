@@ -5,6 +5,25 @@
         margin: 0px;
         padding: 0px;
     }
+
+
+
+    /* nav style */
+    .nav{
+        justify-content:space-between;
+        align-items: center;
+        margin: 0px auto;
+    }
+    .nav-menu {
+        font-size:40px;
+        margin-right: 30px;
+    }
+    .nav-logo{
+        margin-left: 30px;
+    }
+    .list-nav, .nav-button, .nav-school{
+        display: none;
+    }
       /* style banner */
     .banner{
         flex-direction:column;
@@ -34,6 +53,9 @@
         border-radius: 8px;
 
     }
+
+
+
   
     /* style curriculum */
 
@@ -60,6 +82,11 @@
     .scrole{
         display: none;
     }
+
+
+
+
+
     /* stories style */
     .container{
         grid-template-columns: repeat(2,1fr);
