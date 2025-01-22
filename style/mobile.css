@@ -73,7 +73,8 @@
     .kids p{
         margin-bottom: 35px;
     }
-    .footer-social{
+    .footer-social, .kids, .footer-list{
         margin-top: 35px;
+        padding-left: 20px;
     }
 } 
