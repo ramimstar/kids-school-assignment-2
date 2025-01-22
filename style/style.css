@@ -148,6 +148,7 @@
     font-weight: 500;
     margin: 33px 0px;
     padding: 0px 15px;
+    line-height: 25px;
 }
 .gradient-one{
     background:linear-gradient(180deg, rgb(252, 184, 184)-15%, rgba(255, 255, 255, 0)100%);
@@ -193,56 +194,104 @@
     border-radius: 50%;
     padding: 14px 22px;
 }
-/* stories */
-.storieses{
-    background: url(../assets/bg.png), linear-gradient(370deg, rgb(55, 180, 5)-175%, rgba(255, 255, 255, 0.575)50%);;
-}
-.storieses-title{
-    font-size:2.9rem;
-    font-weight: 700;
-    color:black;
-    text-align: center;
-    margin: 50px 0px;
-}
-.container{
-    max-width: 1160px;
-    margin: 0px auto;
-    grid-template-columns: 50% 50%;
-    gap:20px;
-}
-.stories-one{
-    border-radius: 50px;
-    background-color: whitesmoke;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    align-items: center;
-    justify-content: center;
-}
-.stories-one h4{
-    font-size: 1.25rem;
-    font-weight: 700;
-    max-width: 400px;
-    margin-top: 35px;
-    margin-bottom: 40px;
-    margin-left: 30px;
-}
-.stories-one p{
-    max-width: 450px;
-    margin-left: 30px;
-}
-.stories-one button{
-    margin-left: 30px;
-    margin-top:-20px;
-    font-size: 1rem;
-    padding: 15px 20px;
-    border: none;
-    color: white;
-    background-color: #3CD8E8;
-    border-radius: 47px;
-}
-.stories-two{
-    grid-template-columns: repeat(2,1fr);
+/* stories style*/
+.storieses {
+    background: linear-gradient(360deg, rgb(221, 252, 207)-15%, rgba(255, 255, 255, 0)100%), url(assets/bg.png);
 }
 
+.storieses-title {
+    text-align: center;
+    font-size: 2.9rem;
+    font-weight: 700;
+    margin: 50px 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1160px;
+    margin: 0px auto;
+}
+
+#stories-0 {
+    grid-row: span 2;
+}
+.stories{
+    background-color: white;
+    border-radius: 0px 0px 16px 16px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.stories img {
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+.stories button{
+    margin-left:38px;
+    margin-top: -20px;
+    border: none; 
+    border-radius: 45px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+.btn-one{
+    background-color: rgb(38, 10, 196);
+}
+.btn-two{
+    background-color:goldenrod ;
+}
+.btn-three{
+    background-color: rgb(48, 44, 1);
+}
+.btn-four{
+    background-color:rgb(110, 2, 110) ;
+}
+.btn-five{
+    background-color: rgb(0, 183, 255);
+}
+.stories h4{
+    margin: 20px 0px 30px 30px;
+    max-width: 200px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+    line-height: 28px;
+}
+#stories-title{
+    max-width: 300px;
+    margin: 38px 100px 50px 38px;
+    font-size:1.5rem;
+    font-weight: 700;
+    color: black;
+    line-height: 38px;
+}
+.stories p{
+    max-width: 400px;
+    margin-left: 38px;
+    margin-bottom: 34px;
+    font-size: 1rem;
+    font-weight:500;
+    color:#666666;
+    line-height: 28px;
+}
+
+.stories-btn{
+    text-align: center;
+}
+.stories-btn button{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size:1.25rem;
+    font-weight: 700;
+    padding: 10px 61px;
+
+}
 
 
 
