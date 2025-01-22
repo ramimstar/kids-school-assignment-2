@@ -119,7 +119,7 @@
   
   .marquee-content {
     display: inline-block;
-    animation: marquee 35s linear infinite;
+    animation: marquee 25s linear infinite;
     padding-right: 100%; 
   }
   .marquee-content p{
